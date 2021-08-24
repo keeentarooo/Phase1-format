@@ -1,0 +1,59 @@
+#concept{
+    background-color:#A193861F;
+    background:linear-gradient(0deg,#A1938689 50%,#A1938689 0%,#A193861F 0%,#A193861F 50%);
+}
+.concept-all{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 11px;
+}
+.concept{
+    &__img{
+        background-image: URL("../img/andrew-neel-f480QIEvwGI-unsplash.png");
+        //align-items: center;
+        width:670px;
+        height:410px;
+        margin-left:100px;
+        background-size:cover;
+        //background-image: URL("../img/joel-mott-mNYL0surXh8-unsplash@2x.png");
+    }
+}
+.concept2{
+    &__img{
+        background-image: URL("../img/joel-mott-mNYL0surXh8-unsplash@2x.png");
+        width:390px;
+        height:410px;
+        background-size:cover;
+        margin-left: 11px;
+    }
+}
+
+.concept-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.concept-hair{
+    margin-left: 175px;
+    margin-top: 90px;
+    margin-right: 57px;
+    font-size: 40px;
+    font-family: ヒラギノ明朝 Pro;
+    color: #fff;
+    letter-spacing:20px;
+}
+
+.concept-hair-intro{
+    margin-top: 70px;
+    //padding: 70px 185px 65px 675px;
+    font-family: ヒラギノ角ゴ Pro;
+    color: #fff;
+    margin-bottom: 64px;
+}
+
+.title--b{
+    margin-top: 390px;
+}
+

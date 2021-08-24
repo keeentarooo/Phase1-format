@@ -1,0 +1,100 @@
+.menu-wrap{
+    width: 300px;
+    height: 70px;
+    display: flex;
+    //flex-wrap: wrap;
+    margin-top: 11px;
+    justify-content: space-between;
+    //flex-direction: column;
+}
+
+
+.menu1__img{
+    background-image: URL("../img/jens-lindner-4i7-mcM7xSY-unsplash.png");
+    //padding: 10px 90px;
+    width: 270px;
+    height: 270px;
+    margin-left: 100px;
+}
+
+.menu2__img{
+    background-image: URL("../img/beautiful-beauty-female-247322.png");
+    //padding: 10px 90px;
+    width: 274px;
+    height: 270px;
+    margin-left: 125px;
+}
+
+.menu3__img{
+    background-image: URL("../img/edgar-perez-kTBJmeRbAbo-unsplash.png");
+     //background-image: URL("../img/beautiful-beauty-female-247322.png");
+    //padding: 10px 90px;
+    width: 270px;
+    height: 270px;
+    margin-left: 125px;
+}
+
+.menu-content__title{
+    margin-top: 37px;
+    margin-left: 150px;
+    font-family: Roboto Mono for Powerline;
+    font-size: 30px;
+
+    &2{
+        margin-top: 37px;
+        margin-left: 175px;
+        font-family: Roboto Mono for Powerline;
+        font-size: 30px;
+    }
+
+    &3{
+        margin-top: 37px;
+        margin-left: 200px;
+        font-family: Roboto Mono for Powerline;
+        font-size: 30px;
+    }
+}
+
+.menu-content__intro{
+        margin-left: 118px;
+        margin-top: 35px;
+        font-family: Roboto Mono for Powerline;
+        font-size: 16px;
+
+    &2{
+        margin-left: 143px;
+        margin-top: 35px;
+        font-family: Roboto Mono for Powerline;
+        font-size: 16px;
+    }
+
+    &3{
+        margin-left: 160px;
+        margin-top: 35px;
+        font-family: Roboto Mono for Powerline;
+        font-size: 16px;
+    }
+}
+
+.menu-content__plice{
+        margin-left: 265px;
+        margin-top: 34px;
+        font-family: Roboto Mono for Powerline;
+        font-size: 16px;
+
+        &2{
+            margin-left: 275px;
+            margin-top: 34px;
+            font-family: Roboto Mono for Powerline;
+            font-size: 16px;
+        }
+
+        &3{
+            margin-left: 290px;
+            margin-top: 34px;
+            font-family: Roboto Mono for Powerline;
+            font-size: 16px;
+            //margin-bottom: 70px;
+        }
+}
+

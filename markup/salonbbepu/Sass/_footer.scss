@@ -1,0 +1,39 @@
+footer{
+    width: 100%;
+    position:absolute;
+    z-index:20;
+}
+
+.footer-wrap{
+    margin-top: 317px;
+    display: flex;
+}
+
+.footer-title{
+    margin-left: 103px;
+    font-family: Roboto Mono for Powerline;
+    font-size: 32px;
+    color: #7070704D;
+    margin-bottom: 62px;
+
+
+}
+
+.icon{
+    display: flex;
+    margin-left: 26px;
+    margin-top: 9px;
+    font-size:1.3em;
+}
+
+.icon-facebook{
+    margin-left: 9px;
+}
+
+.reserve{
+    margin-left: 507px;
+    height: 37px;
+    width: 187px;
+    margin-top: 7px;
+}
+

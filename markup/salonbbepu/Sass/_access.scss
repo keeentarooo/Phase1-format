@@ -1,0 +1,86 @@
+#access{
+    background-color: #A193861F;
+}
+
+.title--b--b{
+    font-family: Roboto;
+    color:#707070;
+    display:flex;
+    margin-top:600px;
+    //margin-bottom: ;
+    margin-left:100px;
+    align-items: center;
+    letter-spacing:6px;
+    &::after{
+        color:#707070;
+        margin-left:20px;
+        display:inline-block;
+        content:"";
+        width:5rem;
+        border-top:1px solid black;
+        margin-right:10rem;
+}
+}
+
+.access-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+
+.access-content__title{
+    margin-top: 100px;
+    margin-left: 100px;
+    color: #00000038;
+    font-family: Roboto Mono for Powerline;
+    font-size: 24px;
+    margin-right: 193px;
+}
+
+.access-content__intro{
+    margin-top: 30px;
+    margin-left: 100px;
+
+    &__text{
+        margin-bottom: 24px;
+        font-size: 16px;
+        font-family: Roboto Mono for Powerline;
+        color: #FFFFFF;
+    }
+
+    &__call{
+        margin-bottom: 24px;
+        font-size: 16px;
+        font-family: Roboto Mono for Powerline;
+        color: #FFFFFF;
+    }
+
+    &__time{
+        margin-bottom: 24px;
+        font-size: 16px;
+        font-family: Roboto Mono for Powerline;
+        color: #FFFFFF;
+    }
+
+    &__rest{
+        margin-bottom: 103px;
+        font-size: 16px;
+        font-family: Roboto Mono for Powerline;
+        color: #FFFFFF;
+    }
+}
+
+.access__img{
+    background-image: URL("../img/toyosima_map.png");
+    margin-top: 6px;
+    width: 775px;
+}
+
+
+.access-content{
+    margin-top: 6px;
+    background-color:#D0C5BA;
+    width: 507px;
+}

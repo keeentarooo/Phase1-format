@@ -1,0 +1,26 @@
+.title--b{
+    //padding:250px 1060px 125px 100px;
+    font-family: Roboto;
+    color:#707070;
+    display:flex;
+    margin-top:200px;
+    margin-left:100px;
+    align-items: center;
+    letter-spacing:6px;
+    &::after{
+        margin-left:20px;
+        display:inline-block;
+        content:"";
+        width:5rem;
+        border-top:1px solid black;
+        margin-right:10rem;
+    }
+}
+
+// スマホ画面
+@mixin sp {
+    @media (max-width:599px){
+        @content;
+    }
+}
+

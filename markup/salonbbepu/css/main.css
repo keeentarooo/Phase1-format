@@ -1,0 +1,483 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-style: normal;
+  text-align: left;
+  zoom: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  font-family: inherit;
+}
+
+h1, h2, h3, h4, h5 {
+  font-size: 100%;
+  font-weight: normal;
+  line-height: 1;
+}
+
+input, textarea, select {
+  font-family: inherit;
+  font-size: 16px;
+}
+
+input[type="button"], input[type="text"], input[type="submit"] {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+textarea {
+  resize: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+th, td {
+  border-collapse: collapse;
+}
+
+table th, table td {
+  white-space: nowrap;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+img {
+  vertical-align: text-bottom;
+  vertical-align: -webkit-baseline-middle;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+
+.title--b {
+  font-family: Roboto;
+  color: #707070;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 200px;
+  margin-left: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 6px;
+}
+
+.title--b::after {
+  margin-left: 20px;
+  display: inline-block;
+  content: "";
+  width: 5rem;
+  border-top: 1px solid black;
+  margin-right: 10rem;
+}
+
+header {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 70px 77px;
+  color: #fff;
+  color: black;
+  position: absolute;
+  z-index: 20;
+}
+
+header nav {
+  padding: 5px 10px;
+  width: 30%;
+}
+
+@media (max-width: 599px) {
+  header nav {
+    display: none;
+  }
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.2rem;
+}
+
+header nav ul li {
+  padding: 0 10px;
+}
+
+.different-color {
+  color: #707070;
+}
+
+.hd-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.ham {
+  display: none;
+}
+
+@media (max-width: 599px) {
+  .ham {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 25px;
+    height: 14px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .ham span {
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+  }
+}
+
+.line::after {
+  display: block;
+  width: 48px;
+  content: "";
+  border-top: 1px solid #000000;
+}
+
+.first-v__img {
+  background-image: URL("../img/Blond woman with long curly beautiful hair.png");
+  background-size: cover;
+  width: 60%;
+  float: right;
+  height: 800px;
+}
+
+.hair-jp {
+  padding: 300px 0 48px 160px;
+  font-size: 38px;
+  font-family: ヒラギノ明朝 Pro;
+}
+
+.hair-eg {
+  padding: 0 0 0px 107px;
+  font-size: 38px;
+  font-family: Zapfino;
+}
+
+#concept {
+  background-color: #A193861F;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #A1938689), color-stop(0%, #A1938689), color-stop(0%, #A193861F), color-stop(50%, #A193861F));
+  background: linear-gradient(0deg, #A1938689 50%, #A1938689 0%, #A193861F 0%, #A193861F 50%);
+}
+
+.concept-all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 11px;
+}
+
+.concept__img {
+  background-image: URL("../img/andrew-neel-f480QIEvwGI-unsplash.png");
+  width: 670px;
+  height: 410px;
+  margin-left: 100px;
+  background-size: cover;
+}
+
+.concept2__img {
+  background-image: URL("../img/joel-mott-mNYL0surXh8-unsplash@2x.png");
+  width: 390px;
+  height: 410px;
+  background-size: cover;
+  margin-left: 11px;
+}
+
+.concept-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+
+.concept-hair {
+  margin-left: 175px;
+  margin-top: 90px;
+  margin-right: 57px;
+  font-size: 40px;
+  font-family: ヒラギノ明朝 Pro;
+  color: #fff;
+  letter-spacing: 20px;
+}
+
+.concept-hair-intro {
+  margin-top: 70px;
+  font-family: ヒラギノ角ゴ Pro;
+  color: #fff;
+  margin-bottom: 64px;
+}
+
+.title--b {
+  margin-top: 390px;
+}
+
+.menu-wrap {
+  width: 300px;
+  height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 11px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menu1__img {
+  background-image: URL("../img/jens-lindner-4i7-mcM7xSY-unsplash.png");
+  width: 270px;
+  height: 270px;
+  margin-left: 100px;
+}
+
+.menu2__img {
+  background-image: URL("../img/beautiful-beauty-female-247322.png");
+  width: 274px;
+  height: 270px;
+  margin-left: 125px;
+}
+
+.menu3__img {
+  background-image: URL("../img/edgar-perez-kTBJmeRbAbo-unsplash.png");
+  width: 270px;
+  height: 270px;
+  margin-left: 125px;
+}
+
+.menu-content__title {
+  margin-top: 37px;
+  margin-left: 150px;
+  font-family: Roboto Mono for Powerline;
+  font-size: 30px;
+}
+
+.menu-content__title2 {
+  margin-top: 37px;
+  margin-left: 175px;
+  font-family: Roboto Mono for Powerline;
+  font-size: 30px;
+}
+
+.menu-content__title3 {
+  margin-top: 37px;
+  margin-left: 200px;
+  font-family: Roboto Mono for Powerline;
+  font-size: 30px;
+}
+
+.menu-content__intro {
+  margin-left: 118px;
+  margin-top: 35px;
+  font-family: Roboto Mono for Powerline;
+  font-size: 16px;
+}
+
+.menu-content__intro2 {
+  margin-left: 143px;
+  margin-top: 35px;
+  font-family: Roboto Mono for Powerline;
+  font-size: 16px;
+}
+
+.menu-content__intro3 {
+  margin-left: 160px;
+  margin-top: 35px;
+  font-family: Roboto Mono for Powerline;
+  font-size: 16px;
+}
+
+.menu-content__plice {
+  margin-left: 265px;
+  margin-top: 34px;
+  font-family: Roboto Mono for Powerline;
+  font-size: 16px;
+}
+
+.menu-content__plice2 {
+  margin-left: 275px;
+  margin-top: 34px;
+  font-family: Roboto Mono for Powerline;
+  font-size: 16px;
+}
+
+.menu-content__plice3 {
+  margin-left: 290px;
+  margin-top: 34px;
+  font-family: Roboto Mono for Powerline;
+  font-size: 16px;
+}
+
+#access {
+  background-color: #A193861F;
+}
+
+.title--b--b {
+  font-family: Roboto;
+  color: #707070;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 600px;
+  margin-left: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 6px;
+}
+
+.title--b--b::after {
+  color: #707070;
+  margin-left: 20px;
+  display: inline-block;
+  content: "";
+  width: 5rem;
+  border-top: 1px solid black;
+  margin-right: 10rem;
+}
+
+.access-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+
+.access-content__title {
+  margin-top: 100px;
+  margin-left: 100px;
+  color: #00000038;
+  font-family: Roboto Mono for Powerline;
+  font-size: 24px;
+  margin-right: 193px;
+}
+
+.access-content__intro {
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.access-content__intro__text {
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-family: Roboto Mono for Powerline;
+  color: #FFFFFF;
+}
+
+.access-content__intro__call {
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-family: Roboto Mono for Powerline;
+  color: #FFFFFF;
+}
+
+.access-content__intro__time {
+  margin-bottom: 24px;
+  font-size: 16px;
+  font-family: Roboto Mono for Powerline;
+  color: #FFFFFF;
+}
+
+.access-content__intro__rest {
+  margin-bottom: 103px;
+  font-size: 16px;
+  font-family: Roboto Mono for Powerline;
+  color: #FFFFFF;
+}
+
+.access__img {
+  background-image: URL("../img/toyosima_map.png");
+  margin-top: 6px;
+  width: 775px;
+}
+
+.access-content {
+  margin-top: 6px;
+  background-color: #D0C5BA;
+  width: 507px;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  z-index: 20;
+}
+
+.footer-wrap {
+  margin-top: 317px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-title {
+  margin-left: 103px;
+  font-family: Roboto Mono for Powerline;
+  font-size: 32px;
+  color: #7070704D;
+  margin-bottom: 62px;
+}
+
+.icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 26px;
+  margin-top: 9px;
+  font-size: 1.3em;
+}
+
+.icon-facebook {
+  margin-left: 9px;
+}
+
+.reserve {
+  margin-left: 507px;
+  height: 37px;
+  width: 187px;
+  margin-top: 7px;
+}
+/*# sourceMappingURL=main.css.map */
